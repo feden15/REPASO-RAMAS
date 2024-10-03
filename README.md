@@ -56,3 +56,10 @@ git remote add origin https://github.com/feden15/REPASO-RAMAS.git
 ```sh
 git remote -v
 ```
+
+# Subo al remoto el repositorio local
+
+```sh
+git push -u origin main # La primrera vez
+git push
+```
