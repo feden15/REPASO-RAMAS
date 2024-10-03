@@ -29,3 +29,10 @@ git add . # Agrega todos los archivos del Working directory (WD)
 ```sh
 git commit -m "Mensaje descriptivo"
 ```
+
+# Cambiar el editor por nano
+
+```sh
+git config --global core.editor nano
+git config --global core.editor "code ---wait"
+```
