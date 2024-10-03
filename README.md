@@ -63,3 +63,14 @@ git remote -v
 git push -u origin main # La primrera vez
 git push
 ```
+
+# Para recuperar mi código luego de una catástrofe
+Ir al repositorio de GitHub, hacer clic en el botón Code y copiar la URL a mi repositorio (HTTPS)
+
+Luego..
+
+```sh
+git clone <URL-al-repositorio>
+git clone https://github.com/feden15/REPASO-RAMAS.git ./ # Clona en el directorio actual
+git clone https://github.com/feden15/REPASO-RAMAS.git # Crea una carpeta (REPASO-RAMAS) y clona el repositorio remoto al local
+```
